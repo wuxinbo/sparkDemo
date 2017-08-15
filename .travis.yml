@@ -4,8 +4,5 @@ jdk:
   - oraclejdk7
   - openjdk8
   - openjdk7
-install:
-  mvn package
 script:
-  -	jdk_switcher use openjdk7
-  - jdk_switcher use oraclejdk8
+  mvn compile
