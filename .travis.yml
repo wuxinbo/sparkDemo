@@ -7,5 +7,5 @@ jdk:
 install:
   mvn package
 script:
-  -jdk_switcher use openjdk7
-  -jdk_switcher use oraclejdk8
+  -	jdk_switcher use openjdk7
+  - jdk_switcher use oraclejdk8
